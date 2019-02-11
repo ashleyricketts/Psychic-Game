@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/background-smoke.jpeg")
+}
+
+.card{
+    border: none;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    
+}
+
+.card-body{
+    padding: 0px;
+}
+
+.title-background{
+    background-color: #131114;
+    padding-left: 10px;
+}

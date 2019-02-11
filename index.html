@@ -7,23 +7,37 @@
     <title>ô¿ô Psychic Game ô¿ô</title>
     <!--CSS bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   <!--CSS stylesheet-->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Orbitron:500" rel="stylesheet">
 
 </head>
 <body>
-    <div id="container">
-        <h1>Psychic Game</h1>
-        <h3>Wins:
-          <p id="wins"></p>
-        </h3>
-        <h3>Losses:
-          <p id="losses"></p>
-        </h3>
-        <h3>Guesses left:
-          <p id="guessRemaining"></p>
-        </h3>
-        <p>Guess what letter I'm thinking of:</p>
-        <p id="lettersGuessed"></p>
-      </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                    <div class="title-background">
+
+                        <h1 class="card-title"><img src="assets/images/title.png" alt="psychic game"></h1>
+                        <p class="card-subtitle mb-2 text-muted">Instructions: I bet you can't guess the letter I am thinking of! You get 10 guesses.
+                            Type any letter key to see if you are correct.</p><br>
+                    </div>
+                        <h3>Wins:
+                        <p id="wins"></p>
+                        </h3>
+                        <h3>Losses:
+                        <p id="losses"></p>
+                        </h3>
+                        <h3>Guesses left:
+                        <p id="guessRemaining"></p>
+                        </h3>
+                        <p class="card-text">Guess what letter I'm thinking of:</p>
+                        <p id="lettersGuessed"></p>
+                    </div>
+        
+        </div>
+    </div>
 
 
 
