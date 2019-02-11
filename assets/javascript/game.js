@@ -35,6 +35,7 @@ function display() {
 
 function win() {
   wins++;
+  alert("Correct! You guessed " + letterToGuess)
   reset();
 }
 
